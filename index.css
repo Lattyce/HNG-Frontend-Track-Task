@@ -1,0 +1,174 @@
+html {
+    font-size: 1rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(-45deg, rgba(38, 1, 68, 0.8), rgba(1, 7, 56, 0.8)) fixed, url(https://i.postimg.cc/brSz774x/pawel-czerwinski-7-Lo-Wp-COAn6k-unsplash.jpg) fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #010125;
+    color: white;
+    text-align: center;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+/* Slack/Profile/Bio */
+
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slk img {
+    border-radius: 20rem;
+    border: 0.2rem solid wheat;
+}
+
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.profile-text {
+    text-align: left;
+    flex: 2 2 30rem;
+    padding: 0 5rem;
+}
+
+
+
+.profile-image img {
+    border-radius: 0.5rem;
+}
+
+
+/* Section */
+section {
+    margin: 1.25rem;
+    padding: 1.25rem;
+    background-color: rgba(255, 255, 255, 0.048);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.sect {
+   margin-bottom: 8rem;
+}
+
+/* Slack */
+.slack {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.slack div {
+    margin: 1rem;
+}
+
+/* Texts */
+.head-2 {
+    border-radius: 0.25rem;
+    padding: 0.625rem 1.5rem;
+    background-color: #fff;
+    color: #070964;
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 {
+    color: #ffffff;
+    padding: 1rem;
+}
+
+
+
+p {
+   text-align: left;
+   color: #fff;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e5e6f5;
+    margin: 0.625rem 0;
+    padding: 0.625rem;
+    border-radius: 0.25rem;
+}
+
+/* a-Tag */
+
+a {
+    display: inline-block;
+    margin: 0.625rem 0;
+    padding: 0.625rem;
+    background-color: #fff;
+    color: #070964;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0e0e53;
+    color: #fff;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 0;
+    background-color: #010125;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* End */
+
+
+
+
+
+
